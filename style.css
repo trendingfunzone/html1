@@ -1,0 +1,95 @@
+/*
+  ============================================
+  EXTERNAL STYLESHEET — style.css
+  ============================================
+  This file is linked from index.html using:
+      <link rel="stylesheet" href="style.css">
+
+  A CSS rule has this format:
+      selector { property: value; }
+
+  - selector  : which element(s) to style (h1, p, ul, a, etc.)
+  - property  : what to change (color, font-size, margin, etc.)
+  - value     : the new setting (red, 16px, center, etc.)
+*/
+
+/* Style the whole page body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+/* Sub-headings */
+h2 {
+  color: #2980b9;
+}
+
+/* Paragraphs */
+p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* The list gets a nice card look */
+ul {
+  background-color: white;
+  padding: 20px 20px 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* The table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Alternate row coloring for readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Links */
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Link on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px dashed #bbb;
+  margin: 30px 0;
+}
